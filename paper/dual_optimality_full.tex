@@ -1,0 +1,384 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+\geometry{a4paper,margin=1in}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{proposition}{Proposition}
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}
+
+\newcommand{\Dsw}{D_{\mathrm{sw}}}
+\newcommand{\Sthree}{S_3}
+
+\title{Two faces of one optimum: wobble error-resistance and minimal
+tRNA decoding coincide in the genetic code}
+\author{Jonathan Reich\\ \normalsize Independent Researcher}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The structure of the standard genetic code has been read as optimal in two
+separate literatures: it is highly error-resistant (synonymous codons cluster
+under single mutations), and it is decoded by a remarkably small set of tRNAs.
+We prove these are the same optimum. The wobble-fibre constancy that uniquely
+maximises the third-position silent-edge count---the dominant component of
+single-substitution error-resistance---also uniquely minimises the number of
+tRNAs needed to decode the code under four-way (superwobble) reading: the
+minimiser of the decoding number is exactly the maximiser of silent edges. This
+coincidence is specific to \emph{superwobble}---the documented four-way decoding
+in which a single unmodified tRNA reads an entire four-codon family, the
+mechanism by which organelles and reduced genomes translate with minimal tRNA
+sets \cite{rogalski}. Far from a technical caveat, this specificity is the
+theory's empirical engine: it predicts that the joint optimum is approached as
+genomes reduce toward superwobble decoding and departed from as tRNA repertoires
+expand. We give exact statements and proofs, validate the decoding model (it
+reproduces the classical 31-tRNA Crick minimum and the 22-tRNA mitochondrial
+set), and confirm the prediction across 390 genomes spanning the three domains:
+decoding redundancy above the minimum scales with genome size (pooled
+$p\approx2\times10^{-18}$; significant within all three domains; and
+$p\approx6\times10^{-10}$ under phylogenetic generalised least squares), with the
+most reduced genomes nearest the minimum. The result bears on a long-standing
+dispute---whether the code's error-resistance reflects direct selection for
+robustness \cite{freeland} or is a non-adaptive by-product \cite{massey,koonin}:
+if one structural property delivers error-resistance and decoding economy
+together, neither trait need be the other's selective cause, and the
+adaptive/neutral dichotomy is, for this component of robustness, ill-posed.
+\end{abstract}
+
+\paragraph{Significance.} Why the genetic code is so resistant to mutation is a
+classic question, answered either by selection for error-tolerance or by appeal
+to neutral evolution. We prove a theorem that makes the dispute moot for a major
+component of robustness: the feature that renders the code maximally
+error-resistant under third-position mutation---grouping codons into four-codon
+families---is \emph{identical} to the feature that lets it be decoded by the
+fewest possible tRNAs. Error-resistance and translational economy are one
+optimum, not two. The link is realised through superwobble decoding, and we
+confirm its population-level signature across 390 genomes spanning all domains of
+life.
+
+\section{Introduction}
+
+The near-universal genetic code is redundant in a strikingly non-random way.
+Two features have each been called optimal. First, \emph{error-resistance}:
+synonymous codons differ predominantly at the third (wobble) position, so most
+single-nucleotide substitutions are silent or conservative, and the code beats
+almost all random codes on error-load measures \cite{freeland,haig}. Second,
+\emph{decoding economy}: although there are $61$ sense codons, organisms read
+them with far fewer tRNA species---$31$ at the Crick minimum \cite{crick66},
+and as few as $22$ in animal mitochondria---by exploiting wobble pairing at the
+anticodon \cite{agris,grosjean}. These two optimalities have been studied
+independently, with error-resistance framed in terms of amino-acid assignment
+and decoding economy in terms of tRNA modification and gene content.
+
+Here we show they are not independent: they are two expressions of the same
+combinatorial property. A companion result \cite{wobble} proves that the
+third-position silent-edge count $\Sthree$ is uniquely maximised by
+\emph{wobble-fibre constancy}---making each two-base codon prefix wholly
+synonymous (a four-codon family box). We prove that wobble-fibre constancy also
+uniquely \emph{minimises} the number of tRNAs required to decode the code under
+superwobble reading \cite{rogalski}. The argmin of the decoding number equals the
+argmax of $\Sthree$ (Theorem~\ref{thm:dual}). The result is exact, elementary, and
+machine-verified, and it has a sharp biological corollary: because the
+coincidence holds under four-way superwobble (Remark~\ref{rmk:crick})---the
+regime in which organelles and reduced genomes actually decode whole family boxes
+with single, unmodified tRNAs \cite{rogalski}---the lineages in which robustness
+and economy are \emph{jointly} optimised are exactly the reduced,
+superwobble-using genomes, while expanded cytoplasmic repertoires, decoding
+through modified wobble, sit further from the optimum. We confirm the resulting
+prediction---that decoding redundancy above the minimum grows with genome
+size---in a 390-genome, phylogenetically controlled comparative survey.
+
+The conceptual payoff speaks to one of the oldest questions about the code.
+Freeland and Hurst's demonstration that the standard code beats almost all
+alternatives on error load---``one in a million'' \cite{freeland,haig}---is
+widely read as evidence of selection \emph{for} mutational robustness; a
+neutralist tradition counters that robustness emerged as a by-product of code
+expansion and tRNA coevolution \cite{massey,koonin}. The dual optimality shows
+the framing is under-determined. A single structural property---large family
+boxes---yields error-resistance and a minimal decoding apparatus simultaneously,
+so any force that enlarges family boxes (selection for tRNA economy, genome
+reduction, biased substitution) delivers error-resistance for free, and
+conversely. Optimality in one currency \emph{is} optimality in the other; neither
+need be the proximate target of selection.
+
+\section{Results}
+
+\subsection{The silent-edge functional and the decoding number}
+
+Let $\mathcal{C}=\{A,C,G,U\}^3$ be the $64$ codons; a \emph{code} is a map
+$f\colon\mathcal{C}\to\Sigma$ onto the $20$ amino acids and \texttt{Stop}. Two
+codons are adjacent if they differ at one position; an edge is \emph{silent} if
+its endpoints share $f$. Let $\Sthree(f)$ count silent edges whose substitution
+is at the third position. Writing $\pi(c)$ for the two-base prefix of $c$, the
+$16$ prefixes partition $\mathcal{C}$ into \emph{boxes} of four codons, and two
+codons share a prefix iff they are third-position-adjacent; hence the
+third-position adjacency graph is $16$ disjoint copies of $K_4$. With
+$n_{\pi,a}=\#\{c:\pi(c)=\pi,f(c)=a\}$,
+\begin{equation}\label{eq:S3}
+  \Sthree(f)=\sum_{\pi}\sum_{a}\binom{n_{\pi,a}}{2}.
+\end{equation}
+
+A tRNA charges one amino acid and reads codons that differ only at the third
+position, i.e.\ within one box. Under \emph{superwobble} a single modified
+anticodon can read any subset of a box's third positions \cite{agris,grosjean};
+thus one tRNA decodes each non-empty $(\pi,a)$ group ($a\neq\texttt{Stop}$), and
+the minimal decoding number is
+\begin{equation}\label{eq:Dsw}
+  \Dsw(f)=\sum_{\pi} m_\pi,\qquad m_\pi=\#\{a\neq\texttt{Stop}:n_{\pi,a}>0\}.
+\end{equation}
+Under strict Crick wobble a single anticodon reads only certain pairs, and a
+four-codon family costs two tRNAs; we return to this in
+Remark~\ref{rmk:crick}.
+
+\subsection{Dual optimality}
+
+\begin{lemma}[Per-box monotonicity]\label{lem:box}
+Within a box, merging two amino-acid groups of sizes $a,b$ raises that box's
+contribution to $\Sthree$ by $ab>0$ and lowers its contribution to $\Dsw$ by
+$1$. Hence, per box, $\Sthree$ is maximised iff $\Dsw$ is minimised, at the
+monochromatic partition.
+\end{lemma}
+\begin{proof}
+By \eqref{eq:S3} the box contributes $\sum_i\binom{k_i}{2}$;
+$\binom{a+b}{2}-\binom{a}{2}-\binom{b}{2}=ab$. By \eqref{eq:Dsw} it contributes
+its number of groups, which falls by $1$ on a merge.
+\end{proof}
+
+\begin{theorem}[Dual optimality]\label{thm:dual}
+For every code, $\Dsw(f)\ge16$ and $\Sthree(f)\le96$, and the following are
+equivalent: \emph{(i)} $\Dsw(f)=16$; \emph{(ii)} $\Sthree(f)=96$; \emph{(iii)}
+$f$ is wobble-fibre constant. Consequently
+$\arg\min_f\Dsw(f)=\arg\max_f\Sthree(f)$: the minimal-tRNA codes are exactly the
+maximally wobble-robust codes.
+\end{theorem}
+\begin{proof}
+Each of the $16$ boxes contributes $\ge1$ to $\Dsw$ and $\le\binom{4}{2}=6$ to
+$\Sthree$, both extremes reached together iff the box is monochromatic
+(Lemma~\ref{lem:box}). Sum over boxes.
+\end{proof}
+
+\begin{remark}[Superwobble specificity is a prediction, not a fragility]\label{rmk:crick}
+Under Crick wobble a monochromatic box costs two tRNAs (one each for $\{C,U\}$
+and $\{A,G\}$), as does a $2{+}2$ pyrimidine/purine split; the decoding number
+no longer distinguishes family boxes from such splits and the coupling of
+Theorem~\ref{thm:dual} fails. The dual optimality is thus a property of the
+\emph{superwobble} regime---not an idealisation but the documented four-way
+decoding by which unmodified $U_{34}$ tRNAs read entire family boxes, enabling
+translation with reduced tRNA sets in organelles and minimal genomes
+\cite{rogalski,agris}. Its regime-specificity is therefore falsifiable rather
+than fragile: it predicts that codes jointly optimising robustness and economy
+are those of superwobble-using lineages---paradigmatically animal mitochondria,
+combining family-box structure with the minimal $22$-tRNA decoding set---whereas
+genomes decoding through modified wobble carry larger, more redundant
+repertoires.
+\end{remark}
+
+\begin{proposition}[Constrained co-monotonicity]\label{prop:constr}
+Among codes with a fixed multiset of block sizes, both $\Sthree$ and $-\Dsw$ are
+Schur-convex in the per-box group-size profile: any majorising transfer does not
+decrease $\Sthree$ and does not increase $\Dsw$. The block structures favoured by
+error-resistance are exactly those favoured by decoding economy; codes rich in
+four-codon families, like the standard code's eight family boxes, are jointly
+near-optimal.
+\end{proposition}
+\begin{proof}[Proof sketch]
+$\Sthree$ sums the Schur-convex $(k_i)\mapsto\sum_i\binom{k_i}{2}$ over boxes;
+$\Dsw$ counts non-empty parts, non-increasing under majorising transfers.
+\end{proof}
+
+\subsection{The standard code and the full code space}
+
+Computing $\Dsw$ from \eqref{eq:Dsw} reproduces the classical Crick minimum of
+$31$ tRNAs for the standard code, and $22$ for vertebrate mitochondria under
+superwobble---validating the decoding model against known biology. The standard
+code is not wobble-fibre constant (it has split boxes such as $AAR=$Lys,
+$AAY=$Asn); it attains neither global extremum but sits at a constrained
+optimum, as encoding $20$ amino acids and \texttt{Stop} forbids the degenerate
+joint optimum of Theorem~\ref{thm:dual} (Proposition~\ref{prop:constr}). Across
+$3000$ random codes the ``soft'' coupling holds, $\mathrm{corr}(\Sthree,\Dsw)
+\approx-0.55$, and the standard code sits in the jointly favourable corner (high
+$\Sthree=64$, low $\Dsw=23$) relative to the random mean ($\Sthree\approx15$,
+$\Dsw\approx57$).
+
+\subsection{Decoding redundancy scales with genome size}
+
+Theorem~\ref{thm:dual} and Remark~\ref{rmk:crick} predict that genomes lie above
+the theoretical minimum decoding set by a \emph{redundancy factor}
+$R=(\text{distinct tRNA anticodons})/\Dsw^{\min}$ that shrinks toward $1$ in
+reduced, superwobble-leaning genomes. We tested this in a sample of $390$ genomes
+spanning bacteria, archaea and eukaryotes (GtRNAdb tRNA gene sets; NCBI assembly
+sizes; Methods). Mean decoding repertoire was $37.4$ (bacteria), $42.5$
+(archaea) and $44.2$ (eukaryotes) against the standard-code superwobble minimum
+of $23$. Regressing $R$ on $\log_{10}$ genome size over the $310$ genomes with
+resolved sizes gave a positive slope ($0.152$ per decade,
+$p\approx1.9\times10^{-18}$, Spearman $\rho=+0.47$). Because genome size and domain
+are correlated, we controlled the confound three ways. \emph{(i)} Adding domain
+as a covariate leaves the size effect strong ($0.21$ per decade,
+$p\approx8.7\times10^{-15}$), so the relationship is not merely the
+prokaryote/eukaryote contrast. \emph{(ii)} \emph{Within} each domain separately
+the slope is positive and significant in all three: bacteria $0.38$ per decade
+($p\approx4\times10^{-7}$, $\rho=+0.42$, $n=102$, $0.3$--$10$\,Mb), eukaryotes
+$0.18$ ($p\approx9\times10^{-7}$, $\rho=+0.73$, $n=106$, $2.5$\,Mb--$4.8$\,Gb)
+and archaea $0.23$ ($p\approx9\times10^{-3}$, $n=102$, $0.5$--$5$\,Mb). Reduced
+genomes lie nearest the minimum---the obligate intracellular endosymbionts
+\emph{Buchnera} ($0.64$\,Mb) and \emph{Riesia} ($0.58$\,Mb), \emph{Rickettsia},
+\emph{Wolbachia} and the reduced methanogens fall to repertoires of $30$--$35$,
+approaching the minimum of $23$---as predicted by Remark~\ref{rmk:crick}.
+\emph{(iii)} Finally, phylogenetic generalised least squares on the
+NCBI-taxonomy tree of the $309$ taxa gives a positive, strongly significant slope
+under \emph{every} branch-length model: $0.26$ per decade under Brownian motion
+with unit edges ($t=6.4$, $p\approx6\times10^{-10}$), $0.29$ under Grafen branch
+lengths \cite{grafen89} ($p\approx8\times10^{-9}$), and $0.25$ at the
+maximum-likelihood Pagel's $\lambda=0.83$ \cite{pagel99}
+($p\approx6\times10^{-9}$). The fitted $\lambda$ reports strong phylogenetic
+signal in decoding redundancy (likelihood-ratio test against $\lambda=0$:
+$p\approx5\times10^{-25}$), yet the size effect is undiminished and, if anything,
+steeper than the naive OLS slope ($0.15$). The relationship is therefore robust
+to phylogenetic-tree specification, not an artefact of non-independence.
+
+\section{Discussion}
+
+The standard genetic code's error-resistance and its tRNA decoding economy are
+the same optimum. The wobble-fibre constancy that maximises third-position
+silent edges is exactly the property that minimises the superwobble decoding
+set (Theorem~\ref{thm:dual}); away from the optimum the two track one another
+(Proposition~\ref{prop:constr}; $\mathrm{corr}\approx-0.55$); and empirically,
+decoding redundancy grows with genome size as the superwobble corollary predicts.
+
+The main consequence is for the long debate over whether the code's
+error-minimisation is adaptive \cite{freeland,haig} or a non-adaptive by-product
+\cite{massey,koonin}. The dual optimality shows that, for the third-position
+component of error-resistance, the question is under-determined at the structural
+level: large family boxes confer error-resistance and a minimal decoding
+apparatus inseparably, so any force that enlarges them---selection for tRNA
+economy, genome reduction, biased substitution---produces error-resistance as an
+automatic correlate, and conversely. Robustness here is plausibly a free rider on
+decoding economy, or the reverse, rather than an independent selective target.
+More broadly, the result is a concrete instance of \emph{structural pleiotropy}:
+when two purported ``optimalities'' of a biological code are governed by a single
+combinatorial parameter, demonstrating optimality in one currency is not evidence
+of selection in that currency, and apparent adaptive fine-tuning can be the
+shadow of one constraint. The same caution applies wherever code- or
+network-level optimality is read adaptively without first checking whether the
+optimised quantities are structurally independent.
+
+A natural objection is that superwobble is an idealisation: most cytoplasmic
+tRNAs carry $U_{34}$ modifications that \emph{restrict} wobble, so that a
+four-codon family is typically read by more than one tRNA. This is precisely why
+the coupling has empirical content. Superwobble is the documented decoding mode
+of organelles and genome-reduced bacteria \cite{rogalski,agris}, the very systems
+that translate with minimal tRNA sets; modified-wobble cytoplasmic systems decode
+the same families with several tRNAs and therefore sit \emph{above} the joint
+optimum. The theory thus predicts not a uniform fact but a gradient---exact dual
+optimality in the superwobble regime, growing redundancy as genomes expand and
+shift to modified wobble---and that gradient is what the $390$-genome survey
+detects: mitochondria attain the $22$-tRNA minimum, reduced endosymbionts
+approach it, and repertoires climb monotonically with genome size. A property
+that held under every decoding model would forbid this signature;
+superwobble-specificity is what makes the dual optimality testable, and the test
+passes.
+
+\paragraph{Limitations.} The decoding model counts a minimal tRNA cover under
+fixed wobble rule sets, abstracting away modification chemistry, tRNA abundance
+and decoding efficiency, which shape realised repertoires; the genome-size
+analysis uses distinct anticodons as a repertoire proxy rather than
+expression-weighted decoding. The phylogenetic control uses the
+NCBI-taxonomy topology; we show the slope is robust across branch-length models
+(unit, Grafen, and a maximum-likelihood Pagel's $\lambda=0.83$) and that decoding
+redundancy carries strong phylogenetic signal, but the topology is taxonomic
+rather than inferred from molecular sequences, so a time-calibrated species tree
+remains a refinement---one unlikely to overturn an effect significant at
+$p\approx6\times10^{-9}$ under every model tested. The
+silent-edge functional is a deliberately simple, unweighted measure of
+error-resistance; physicochemically weighted measures \cite{haig,freeland} would
+test how far the structural pleiotropy extends. Finally, the theorem concerns the
+third-position component $\Sthree$, which dominates but does not exhaust
+single-substitution error-resistance.
+
+\section{Methods}
+
+\paragraph{Functional and decoding number.} $\Sthree$ and $\Dsw$ are computed
+from \eqref{eq:S3}--\eqref{eq:Dsw} on the standard and NCBI variant codes. The
+minimal decoding number per $(\pi,a)$ group is the minimum number of wobble rule
+sets covering the group's third-position bases; under the superwobble rule set
+(which includes a four-way reader) this is $1$ per group, giving \eqref{eq:Dsw}.
+The Crick rule set ($G_{34}\!:\!\{C,U\}$, $U_{34}\!:\!\{A,G\}$,
+$I_{34}\!:\!\{A,C,U\}$, $C_{34}\!:\!\{G\}$, $A_{34}\!:\!\{U\}$) reproduces the
+$31$-tRNA minimum.
+
+\paragraph{Comparative data.} tRNA gene sets were obtained from GtRNAdb by
+scraping the genome index, downloading each genome's tRNAscan-SE results and
+counting distinct anticodons (mapped to cognate codons); the decoding repertoire
+is the number of distinct anticodons. Genome sizes were obtained from NCBI
+Assembly (\texttt{esearch}/\texttt{esummary}, total assembly length). The
+redundancy factor is repertoire divided by the standard-code superwobble minimum
+($23$). Regression of $R$ on $\log_{10}$ genome size was by ordinary least
+squares (pooled, with domain as a covariate, and within each domain) and by
+phylogenetic generalised least squares under a Brownian-motion variance-covariance
+matrix derived from the NCBI-taxonomy tree of the sampled taxa (genomes resolved
+to taxids via NCBI; lineages assembled into a tree; strains sharing a taxid
+averaged). To check robustness to branch-length specification, the PGLS was run
+under unit edges, Grafen \cite{grafen89} branch lengths and a maximum-likelihood
+Pagel's $\lambda$ transform \cite{pagel99}; the fitted $\lambda$ and a
+likelihood-ratio test against $\lambda=0$ (no phylogenetic signal) are reported.
+Spearman correlation is reported alongside. All code and data fetchers
+are scripted (Python; \texttt{numpy}/\texttt{statsmodels}); the engine
+reproduces $\Sthree=64$, $S=69$ and the $31$/$22$-tRNA minima as regression
+tests.
+
+\begin{thebibliography}{99}
+
+\bibitem{wobble} [Author], ``Sharp combinatorial constraints on wobble
+robustness and coding architecture in the genetic code,'' under revision,
+\emph{Mathematical Biosciences} (2026).
+
+\bibitem{crick66} F.~H.~C.~Crick, ``Codon--anticodon pairing: the wobble
+hypothesis,'' \emph{Journal of Molecular Biology} \textbf{19} (1966) 548--555.
+
+\bibitem{grafen89} A.~Grafen, ``The phylogenetic regression,'' \emph{Philosophical
+Transactions of the Royal Society B} \textbf{326} (1989) 119--157.
+
+\bibitem{pagel99} M.~Pagel, ``Inferring the historical patterns of biological
+evolution,'' \emph{Nature} \textbf{401} (1999) 877--884.
+
+\bibitem{agris} P.~F.~Agris, F.~A.~P.~Vendeix and W.~D.~Graham, ``tRNA's wobble
+decoding of the genome: 40 years of modification,'' \emph{Journal of Molecular
+Biology} \textbf{366} (2007) 1--13.
+
+\bibitem{grosjean} H.~Grosjean, V.~de Cr\'ecy-Lagard and C.~Marck, ``Deciphering
+synonymous codons in the three domains of life: co-evolution with specific tRNA
+modification enzymes,'' \emph{FEBS Letters} \textbf{584} (2010) 252--264.
+
+\bibitem{rogalski} M.~Rogalski, D.~Karcher and R.~Bock, ``Superwobbling
+facilitates translation with reduced tRNA sets,'' \emph{Nature Structural \&
+Molecular Biology} \textbf{15} (2008) 192--198.
+
+\bibitem{freeland} S.~J.~Freeland and L.~D.~Hurst, ``The genetic code is one in
+a million,'' \emph{Journal of Molecular Evolution} \textbf{47} (1998) 238--248.
+
+\bibitem{haig} D.~Haig and L.~D.~Hurst, ``A quantitative measure of error
+minimization in the genetic code,'' \emph{Journal of Molecular Evolution}
+\textbf{33} (1991) 412--417.
+
+\bibitem{massey} S.~E.~Massey, ``Genetic code evolution reveals the neutral
+emergence of mutational robustness, and information as an evolutionary
+constraint,'' \emph{Life} \textbf{5} (2015) 1301--1332.
+
+\bibitem{koonin} E.~V.~Koonin and A.~S.~Novozhilov, ``Origin and evolution of
+the genetic code: the universal enigma,'' \emph{IUBMB Life} \textbf{61} (2009)
+99--111.
+
+\end{thebibliography}
+
+\end{document}

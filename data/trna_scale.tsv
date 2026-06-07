@@ -1,0 +1,391 @@
+organism	domain	repertoire	total_genes	genome_size_bp
+plasmodium falciparum 3d7	eukaryota	44	45	23235407
+pleurozium schreberi blido	eukaryota	45	176	
+syntrichia caninervis	eukaryota	53	498	329824126
+chlorokybus atmophyticus	eukaryota	53	216	74330326
+micromonas commoda rcc299	eukaryota	45	51	
+leishmania major strain friedlin	eukaryota	46	84	32797613
+agaricus bisporus var. bisporus h97	eukaryota	45	156	30417844
+anncaliia algerae pra339	eukaryota	40	55	20631345
+aspergillus clavatus nrrl 1	eukaryota	44	249	27859441
+aspergillus kawachii ifo 4308 ifo4308	eukaryota	45	279	
+aspergillus ruber cbs 135680	eukaryota	48	179	26209327
+baudoinia compniacensis uamh 10762	eukaryota	34	42	21875620
+bipolaris sorokiniana nd90pr	eukaryota	42	108	34409167
+blastomyces dermatitidis slh14081	eukaryota	47	148	75404732
+blumeria graminis f. sp. tritici jiw2	eukaryota	49	445	65237303
+candida albicans 3153a	eukaryota	41	127	14889980
+candida albicans a48	eukaryota	41	128	14699976
+candida albicans chn1	eukaryota	41	131	14787852
+candida orthopsilosis co 90-125	eukaryota	40	82	
+chaetomium globosum cbs 148.51	eukaryota	46	180	34886939
+cladophialophora bantiana cbs 173.52	eukaryota	34	41	36722552
+coccidioides immitis h538.4	eukaryota	45	116	27781142
+coccidioides posadasii cpa 0001	eukaryota	45	115	28693256
+coccidioides posadasii rmscc 1038	eukaryota	45	103	26175928
+colletotrichum graminicola m1.001	eukaryota	45	299	51644307
+cronartium comandrae c4	eukaryota	55	392	68605838
+cryptococcus gattii 2001/935-1	eukaryota	42	147	17566680
+cryptococcus gattii cbs 10090	eukaryota	42	144	17478748
+cryptococcus gattii ind107	eukaryota	42	142	17799622
+cryptococcus gattii ram5	eukaryota	42	147	17453840
+cryptococcus neoformans var. neoformans jec21	eukaryota	41	139	
+cylindrobasidium torrendii fp15055 ss-10	eukaryota	47	308	31574086
+encephalitozoon cuniculi gb-m1	eukaryota	44	46	2497519
+endocarpon pusillum z07020	eukaryota	42	65	37130611
+epichloe festucae fl1	eukaryota	46	120	35023690
+exophiala mesophila cbs 40295	eukaryota	43	49	
+exophiala xenobiotica cbs 118157	eukaryota	38	48	
+fomitopsis pinicola fp-58527 ss1	eukaryota	46	141	
+fusarium graminearum ph-1 nrrl 31084	eukaryota	47	317	
+fusarium oxysporum f. sp. cubense race 1	eukaryota	47	289	61471473
+fusarium oxysporum f. sp. pisi hdv247	eukaryota	46	324	55188216
+fusarium pseudograminearum cs3270	eukaryota	46	303	
+ganoderma lucidum g.260125-1	eukaryota	45	209	43292593
+grosmannia clavigera kw1407	eukaryota	44	189	29794006
+histoplasma capsulatum h143	eukaryota	43	82	38961716
+hortaea werneckii exf-2000	eukaryota	46	123	49777326
+kluyveromyces lactis nrrl y-1140	eukaryota	42	163	
+kwoniella heveanensis bcc8398	eukaryota	43	89	25469355
+kwoniella mangroviensis cbs 8886	eukaryota	40	82	22674209
+lecanosticta acicola cbs 871.95	eukaryota	45	211	28442312
+magnaporthe oryzae 70-15	eukaryota	45	323	
+magnaporthiopsis poae atcc 64411	eukaryota	45	167	39641827
+metacordyceps chlamydosporia 123	eukaryota	26	31	42540189
+metarhizium robertsii arsef 23	eukaryota	47	139	39145269
+mortierella verticillata nrrl 6337	eukaryota	45	272	
+myceliophthora thermophila atcc 42464	eukaryota	47	192	38744216
+naumovozyma dairenensis cbs 421	eukaryota	41	265	13527580
+neofusicoccum parvum ucrnp2	eukaryota	43	124	42592847
+neurospora pannonica fgsc 7221	eukaryota	34	116	41634043
+neurospora tetrasperma fgsc 2509	eukaryota	51	418	39123460
+omphalotus olearius vt 653.13	eukaryota	44	193	27993721
+paracoccidioides brasiliensis pb03	eukaryota	45	107	29062735
+penicillium camemberti fm 013	eukaryota	44	201	35011981
+penicillium digitatum pd1	eukaryota	43	189	26053171
+penicillium roqueforti fm164	eukaryota	48	196	29010044
+pleurotus ostreatus pc15	eukaryota	45	161	34342730
+pseudogymnoascus destructans 20631-21	eukaryota	47	125	30684937
+pseudozyma flocculosa pf-1	eukaryota	44	173	23305380
+pyrenochaeta lycopersici cra-pav_er 1211	eukaryota	44	99	50489877
+rhizoctonia solani ag-1 ia ag-1ia	eukaryota	45	141	
+rhizopus delemar ra 99-880	eukaryota	45	239	46148878
+rhizopus oryzae humc 02	eukaryota	38	99	
+saccharomyces arboricola h-6	eukaryota	41	273	11619520
+saccharomyces cerevisiae clib215	eukaryota	42	276	12438488
+saccharomyces cerevisiae fl100	eukaryota	40	287	12415388
+saccharomyces cerevisiae p283	eukaryota	41	248	11408082
+saccharomyces cerevisiae rm11-1a	eukaryota	41	272	11736985
+saccharomyces cerevisiae ufmg a-905	eukaryota	41	309	11430366
+saccharomyces cerevisiae y10	eukaryota	40	207	14267286
+saccharomyces kudriavzevii fm1069	eukaryota	6	6	10400950
+saccharomyces kudriavzevii fm1076	eukaryota	2	2	10032143
+saccharomyces kudriavzevii ifo 1802	eukaryota	41	265	11913776
+saccharomyces sp. boulardii 17	eukaryota	41	282	
+schizophyllum commune h4-8	eukaryota	46	286	38670379
+sclerotinia borealis f-4157	eukaryota	43	181	
+sphaerobolus stellatus ss14	eukaryota	57	928	176372157
+sporothrix schenckii atcc 58251	eukaryota	44	111	32228000
+stereum hirsutum fp-91666 ss1	eukaryota	55	330	46511623
+taphrina deformans pycc 5710	eukaryota	44	89	13394157
+togninia minima ucrpa7	eukaryota	41	98	47465449
+trichoderma longibrachiatum smf2	eukaryota	45	202	31743061
+trichophyton rubrum cbs 100081	eukaryota	45	83	23061810
+trichophyton rubrum cbs 289.86	eukaryota	45	83	23051776
+trichophyton soudanense cbs 452.61	eukaryota	45	83	22854418
+umbilicaria muehlenbergii kolri no. lf000956	eukaryota	32	42	
+ustilago maydis 521	eukaryota	43	109	20582581
+verruconis gallopava cbs 43764	eukaryota	40	53	
+vittaforma corneae atcc 50505	eukaryota	43	47	3213516
+yarrowia lipolytica po1f	eukaryota	43	492	20560804
+ephydatia muelleri	eukaryota	43	294	631942623
+blattella germanica	eukaryota	53	1463	1984735037
+drosophila grimshawi	eukaryota	44	257	191382978
+drosophila sechellia	eukaryota	44	287	147908742
+drosophila yakuba	eukaryota	45	323	151315748
+ailuropoda melanoleuca	eukaryota	48	431	2478972487
+cavia porcellus	eukaryota	48	350	3074577862
+cricetulus griseus	eukaryota	48	426	2780908674
+erinaceus europaeus	eukaryota	46	446	2720683831
+homo sapiens	eukaryota	48	419	3052987981
+monodelphis domestica	eukaryota	47	463	3586183679
+mus musculus akr/j	eukaryota	49	381	
+mus musculus cba/j	eukaryota	49	392	
+mus musculus nzo/hiltj	eukaryota	48	398	
+mus spretus spret/eij	eukaryota	47	351	
+ochotona princeps	eukaryota	46	324	2555444530
+pan paniscus	eukaryota	51	434	3244888708
+rattus norvegicus	eukaryota	46	385	2855444884
+spermophilus tridecemlineatus	eukaryota	53	411	3144977123
+tursiops truncatus	eukaryota	53	602	2378505825
+caenorhabditis briggsae	eukaryota	45	716	106543070
+adiantum capillus-veneris	eukaryota	53	786	4822565590
+carthamus tinctorius ac sunset	eukaryota	46	520	
+gossypium raimondii	eukaryota	49	737	776015441
+oryza sativa japonica group	eukaryota	48	574	380735345
+vitis vinifera	eukaryota	48	379	978570805
+ciona intestinalis	eukaryota	49	469	164347509
+danio rerio	eukaryota	60	8874	1450693629
+latimeria chalumnae	eukaryota	50	329	2947609019
+oreochromis niloticus	eukaryota	48	633	1111200740
+tetraodon nigroviridis	eukaryota	47	440	342846728
+candidatus prometheoarchaeum syntrophicum mk-d1	archaea	45	46	
+acidianus hospitalis w1	archaea	44	46	2137654
+aeropyrum camini sy1 jcm 12091	archaea	44	46	1591049
+caldisphaera lagunensis dsm 15908	archaea	44	45	1546846
+caldivirga maquilingensis ic-167	archaea	44	48	2077567
+desulfurococcus kamchatkensis 1221n	archaea	44	47	1365223
+fervidicoccus fontis kam940	archaea	41	44	1319206
+hyperthermus butylicus dsm 5456	archaea	44	46	1667163
+ignisphaera aggregans dsm 17230	archaea	44	46	1875953
+metallosphaera sedula cur1	archaea	44	46	
+metallosphaera sedula dsm 5348	archaea	44	46	2190631
+pyrobaculum arsenaticum dsm 13514	archaea	44	45	2121076
+pyrobaculum islandicum dsm 4184	archaea	44	45	1826402
+pyrobaculum sp. 1860	archaea	44	45	1453063
+pyrolobus fumarii 1a	archaea	44	46	1843267
+staphylothermus hellenicus dsm 12710	archaea	44	45	1580347
+sulfolobus acidocaldarius dsm 639	archaea	44	49	2225130
+sulfolobus acidocaldarius n8	archaea	44	49	2176362
+sulfolobus acidocaldarius susaz	archaea	44	45	2061920
+sulfolobus islandicus l.d.8.5	archaea	44	46	
+sulfolobus islandicus l.s.2.15	archaea	44	47	
+sulfolobus islandicus m.14.25	archaea	44	46	
+sulfolobus islandicus m.16.23	archaea	44	45	
+sulfolobus islandicus m.16.27	archaea	44	45	
+sulfolobus islandicus m.16.40	archaea	44	45	
+sulfolobus islandicus m.16.47	archaea	44	45	
+sulfolobus islandicus y.g.57.14	archaea	44	48	
+sulfolobus islandicus y.n.15.51	archaea	44	45	
+sulfolobus solfataricus 98/2 sulc	archaea	44	46	
+sulfolobus solfataricus sula	archaea	44	46	
+sulfolobus solfataricus sulb	archaea	44	46	
+thermofilum carboxyditrophus 1505	archaea	44	45	1754190
+thermofilum sp. 1910b	archaea	44	45	1947252
+thermogladius cellulolyticus 1633	archaea	44	45	1356318
+thermoproteus tenax kra 1	archaea	44	45	1841542
+thermosphaera aggregans dsm 11486	archaea	44	45	1316595
+vulcanisaeta distributa dsm 14429	archaea	44	45	2374137
+aciduliprofundum boonei t469	archaea	44	45	2981805
+archaeoglobus fulgidus dsm 4304	archaea	44	45	2178400
+archaeoglobus profundus dsm 5631	archaea	44	47	1563423
+archaeoglobus sulfaticallidus pm70-1	archaea	44	51	2076931
+ferroglobus placidus dsm 10642	archaea	44	48	2196266
+halalkalicoccus jeotgali b3	archaea	44	47	3614122
+haloarcula hispanica atcc 33960 cgmcc 1.2049	archaea	44	46	
+haloarcula marismortui atcc 43049	archaea	44	48	4184924
+halobacterium salinarum r1 dsm 671	archaea	44	46	
+halobacterium sp. dl1	archaea	44	46	3155649
+haloferax mediterranei atcc 33500	archaea	42	54	3907482
+haloferax volcanii ds2	archaea	44	51	3866754
+halogeometricum borinquense dsm 11551 pr 3	archaea	44	51	
+halopiger xanaduensis sh-6	archaea	43	48	4355268
+haloquadratum walsbyi dsm 16790 hbsq001	archaea	42	44	
+halorhabdus utahensis dsm 12940	archaea	44	45	3116795
+halorubrum lacusprofundi atcc 49239	archaea	44	50	3692576
+haloterrigena turkmenica dsm 5511	archaea	43	49	5440782
+natrialba magadii atcc 43099	archaea	43	48	4416299
+natrinema pellirubrum dsm 15624	archaea	44	48	4264455
+natronobacterium gregoryi sp2	archaea	43	49	3695310
+natronomonas moolapensis 8.8.11	archaea	43	45	2912573
+natronomonas pharaonis dsm 2160 gabara	archaea	43	46	
+methanobacterium formicicum	archaea	40	46	2218599
+methanobacterium lacus al-21	archaea	38	42	
+methanobacterium paludis swan1	archaea	39	46	
+methanobrevibacter ruminantium m1	archaea	35	57	2937203
+methanobrevibacter sp. abm4	archaea	32	35	1998189
+methanothermobacter marburgensis str. marburg	archaea	35	39	1639135
+methanothermobacter sp. cat2	archaea	35	38	1731018
+methanothermus fervidus dsm 2088	archaea	38	40	1243342
+methanocaldococcus infernus me	archaea	34	37	1328194
+methanocaldococcus jannaschii dsm 2661	archaea	33	36	1739927
+methanocaldococcus sp. jh146	archaea	33	36	1607556
+methanococcus aeolicus nankai-3	archaea	32	38	1569500
+methanococcus maripaludis c5	archaea	32	37	1789046
+methanococcus maripaludis c7	archaea	32	37	
+methanococcus maripaludis x1	archaea	32	37	1746697
+methanococcus vannielii sb	archaea	32	37	1720048
+methanothermococcus okinawensis ih1	archaea	32	37	1677455
+methanocella arvoryzae mre50	archaea	44	53	3179916
+methanocella paludicola sanae	archaea	44	49	2957635
+methanococcoides burtonii dsm 6242	archaea	44	50	2575032
+methanocorpusculum labreanum z	archaea	44	52	1804962
+methanoculleus marisnigri jr1	archaea	44	48	2478101
+methanogenium sp. mk-mg	archaea	43	50	2189363
+methanohalophilus mahii dsm 5219	archaea	44	52	2012424
+methanolinea tarda nobi-1	archaea	44	46	2048009
+methanolobus psychrophilus r15	archaea	44	52	3072769
+methanoregula boonei 6a8	archaea	44	48	2542943
+methanosaeta concilii gp6	archaea	44	48	3026645
+methanosaeta harundinacea 6ac	archaea	44	45	2571034
+methanosalsum zhilinae dsm 4017	archaea	43	49	2138444
+methanosarcina barkeri 227	archaea	44	60	4487566
+methanosarcina barkeri ms	archaea	44	58	4574907
+methanosarcina barkeri str. fusaro	archaea	44	61	
+methanosarcina horonobensis hb-1 jcm 15518	archaea	44	59	4926839
+methanosarcina mazei c16	archaea	44	58	4166241
+methanosarcina mazei go1	archaea	44	56	4096345
+methanosarcina mazei s-6	archaea	44	56	4142816
+methanosarcina mazei tuc01	archaea	37	43	3427949
+methanosarcina mazei wwm610	archaea	44	56	4096482
+methanosarcina siciliae hi350	archaea	44	56	4941115
+methanosarcina sp. kolksee	archaea	44	61	4553495
+methanosarcina sp. mtp4	archaea	44	56	4211468
+methanosarcina sp. wwm596	archaea	44	57	4137337
+methanosarcina thermophila tm-1	archaea	44	57	3127379
+methanosphaerula palustris e1-9c	archaea	44	55	2922917
+methanospirillum hungatei jf-1	archaea	44	50	3544738
+palaeococcus pacificus dy20341	archaea	44	46	1859370
+pyrococcus furiosus com1	archaea	44	45	1909827
+pyrococcus furiosus dsm 3638	archaea	44	45	1889914
+pyrococcus sp. na2	archaea	44	45	1861320
+pyrococcus yayanosii ch1	archaea	44	46	1716818
+thermococcus barophilus mp	archaea	44	45	2064237
+thermococcus gammatolerans ej3 dsm 15229	archaea	44	46	
+thermococcus litoralis dsm 5473	archaea	41	43	2309423
+thermococcus nautili 30-1	archaea	44	46	
+thermococcus sibiricus mm 739	archaea	44	45	1845800
+thermococcus sp. am4	archaea	44	45	2086428
+thermococcus sp. es1	archaea	44	46	1434181
+candidatus methanomassiliicoccus intestinalis issoire-mx1	archaea	44	45	1931651
+candidatus methanoplasma termitum mpt1	archaea	44	45	
+picrophilus torridus dsm 9790	archaea	44	46	1534155
+thermoplasma acidophilum dsm 1728	archaea	44	45	1564906
+thermoplasmatales archaeon brna1	archaea	44	45	1461105
+nanoarchaeum equitans kin4-m	archaea	43	44	490885
+cenarchaeum symbiosum a	archaea	44	45	2045086
+candidatus nitrosopumilus sp. ar2	archaea	41	42	1690905
+candidatus nitrosopumilus sp. nf5	archaea	41	42	
+nitrosopumilus maritimus scm1	archaea	42	43	1645259
+candidatus nitrososphaera gargensis ga9.2	archaea	44	45	2833868
+candidatus caldiarchaeum subterraneum	archaea	44	45	
+chloracidobacterium thermophilum b	bacteria	45	46	3695372
+arthrobacter sp. fb24	bacteria	43	51	5070478
+bifidobacterium breve acs-071-v-sch8b	bacteria	43	52	2327492
+clavibacter michiganensis subsp. nebraskensis ncppb 2581	bacteria	43	45	3063596
+corynebacterium glutamicum scgg2	bacteria	42	60	3350619
+corynebacterium sp. atcc 6931	bacteria	43	52	2471920
+kineococcus radiotolerans srs30216 atcc baa-149	bacteria	44	48	4956672
+mycobacterium avium subsp. avium djo-44271	bacteria	44	46	
+mycobacterium leprae br4923	bacteria	43	44	3268071
+mycobacterium tuberculosis 0b123nd	bacteria	43	45	
+mycobacterium tuberculosis k	bacteria	43	45	4385518
+propionibacterium acnes atcc 11828	bacteria	43	44	2488626
+salinispora tropica cnb-440	bacteria	44	52	5183331
+thermobifida fusca yx	bacteria	43	52	3642249
+streptomyces scabiei 87.22	bacteria	44	78	10148695
+bacteroides vulgatus atcc 8482	bacteria	39	80	5042371
+emticicia oligotrophica dsm 17448	bacteria	31	41	5194863
+candidatus uzinura diaspidicola str. asner	bacteria	30	31	263431
+flavobacterium psychrophilum vq50	bacteria	30	48	
+haliscomenobacter hydrossis dsm 1100	bacteria	36	51	2893458
+chlamydia psittaci c19/98	bacteria	36	37	1189388
+chlamydia trachomatis d/uw-3/cx	bacteria	35	36	1042519
+chlamydia trachomatis j/6276tet1	bacteria	35	36	1080953
+chlamydia trachomatis rc-j/943	bacteria	35	36	1038797
+roseiflexus castenholzii dsm 13941	bacteria	44	47	5723298
+nostoc sp. pcc 7524	bacteria	43	66	6718869
+synechococcus sp. cc9605	bacteria	40	48	2510659
+prochlorococcus marinus str. mit 9312	bacteria	36	43	1709204
+thermus thermophilus hb8	bacteria	43	48	2116056
+bacillus amyloliquefaciens subsp. plantarum njn6	bacteria	32	80	
+bacillus anthracis str. a2012	bacteria	18	30	5370060
+bacillus cereus forc_005	bacteria	30	104	
+bacillus pumilus mtcc b6033	bacteria	31	80	
+bacillus subtilis subsp. spizizenii nrs 231	bacteria	32	76	
+bacillus thuringiensis serovar kurstaki str. ybt-1520	bacteria	30	95	6520413
+exiguobacterium sp. at1b	bacteria	32	67	2727929
+lactobacillus casei bl23	bacteria	42	59	
+lactobacillus paracasei subsp. paracasei jcm 8130	bacteria	41	60	2881963
+lactococcus lactis subsp. cremoris mg1363	bacteria	34	61	2436753
+listeria monocytogenes c1-387	bacteria	34	66	
+listeria monocytogenes slcc2378	bacteria	35	66	2941360
+paenibacillus mucilaginosus knp414	bacteria	37	110	8663821
+staphylococcus aureus 2395 usa500	bacteria	28	61	
+staphylococcus aureus subsp. aureus ed133	bacteria	28	59	2832478
+staphylococcus aureus subsp. aureus vc40	bacteria	29	60	2692570
+streptococcus agalactiae gbs1-ny	bacteria	31	80	
+streptococcus infantarius subsp. infantarius cj18	bacteria	32	67	2008249
+streptococcus pneumoniae g54	bacteria	31	57	2078953
+streptococcus pyogenes hsc5	bacteria	31	66	1818351
+streptococcus suis 05zyh33	bacteria	32	55	2096309
+thermobacillus composti kwc4	bacteria	39	59	4355525
+clostridium acetobutylicum ea 2018	bacteria	37	74	4132226
+clostridium clariflavum dsm 19732	bacteria	41	59	4897678
+desulfitobacterium hafniense dcb-2	bacteria	42	73	5279134
+mageeibacillus indolicus upii9-5	bacteria	43	45	1809746
+ruminococcus torques l2-14	bacteria	35	45	3341681
+acidaminococcus intestini ryc-mr95	bacteria	41	51	2487765
+planctomyces limnophilus dsm 3776	bacteria	44	67	5460085
+azospirillum brasilense az39	bacteria	43	86	
+brucella abortus bdw	bacteria	43	54	
+brucella suis bsp	bacteria	43	54	
+candidatus rickettsia amblyommii str. gat-30v	bacteria	31	32	1480884
+granulibacter bethesdensis cgdnih3	bacteria	43	51	2711143
+methylobacterium oryzae cbmb20	bacteria	44	58	6380396
+parvibaculum lavamentivorans ds-1	bacteria	43	45	3914745
+rhodomicrobium vannielii atcc 17100	bacteria	43	51	3849085
+rickettsia prowazekii str. breinl	bacteria	31	32	1109301
+ruegeria pomeroyi dss-3	bacteria	39	53	4601048
+wolbachia endosymbiont of drosophila simulans wno	bacteria	32	33	1301823
+bordetella bronchiseptica 253	bacteria	40	53	5264383
+burkholderia lata 383	bacteria	41	69	
+burkholderia pseudomallei 7894	bacteria	41	61	7381912
+burkholderia pseudomallei nau20b-16	bacteria	41	63	7313851
+burkholderia ubonensis msmb22	bacteria	41	70	7189071
+cupriavidus taiwanensis lmg 19424 lmg19424	bacteria	40	64	
+neisseria meningitidis m01-240355	bacteria	38	60	2287777
+polynucleobacter necessarius subsp. asymbioticus qlw-p1dmwa-1	bacteria	36	38	2159490
+variovorax paradoxus s110	bacteria	42	63	
+desulfovibrio gigas dsm 1382 atcc 19364	bacteria	43	47	3796022
+pelobacter carbinolicus dsm 2380	bacteria	41	54	3665893
+campylobacter jejuni 32488	bacteria	33	43	1702398
+campylobacter jejuni subsp. jejuni s3	bacteria	33	43	1724586
+helicobacter pylori 35a	bacteria	33	35	1566655
+helicobacter pylori ok310	bacteria	33	35	1595436
+helicobacter pylori oki898	bacteria	33	35	1634875
+acinetobacter baumannii acicu	bacteria	31	64	4013643
+aeromonas hydrophila al09-71	bacteria	40	111	5023861
+alteromonas macleodii str. english channel 673	bacteria	33	76	
+buchnera aphidicola str. tlw03 acyrthosiphon pisum	bacteria	30	31	641770
+candidatus riesia pediculicola usda	bacteria	31	32	582127
+dickeya dadantii 3937	bacteria	40	74	4922802
+enterobacter cloacae subsp. dissolvens sdm	bacteria	38	78	4968248
+escherichia coli bl21 takara	bacteria	41	85	
+escherichia coli k-12 substr. hms174	bacteria	40	85	
+escherichia coli o7_k1 str. ce10	bacteria	41	88	5378729
+francisella guangzhouensis 08hl01032	bacteria	30	37	
+francisella tularensis subsp. tularensis scherm	bacteria	31	36	
+haemophilus influenzae rd kw20	bacteria	33	57	1830138
+klebsiella pneumoniae jm45	bacteria	39	82	5603174
+legionella fallonii llap-10	bacteria	38	46	4434890
+mannheimia varigena usda-ars-usmarc-1388	bacteria	32	61	2228291
+pantoea sp. at-9b	bacteria	39	82	6312783
+pseudoalteromonas sp. ocn003	bacteria	33	94	4815987
+pseudomonas aeruginosa pao1h2o	bacteria	39	62	6264404
+pseudomonas mendocina nk-01	bacteria	39	65	5434353
+pseudomonas sp. 20_bn	bacteria	39	53	3603677
+rahnella aquatilis hx2	bacteria	37	75	5656799
+salmonella enterica subsp. enterica serovar enteritidis olf-se11-10058	bacteria	40	84	
+salmonella enterica subsp. enterica serovar enteritidis str. ec20110221	bacteria	40	82	4709033
+salmonella enterica subsp. enterica serovar enteritidis str. ec20120219	bacteria	40	76	4685842
+salmonella enterica subsp. enterica serovar enteritidis str. ec20120917	bacteria	40	77	4685847
+salmonella enterica subsp. enterica serovar enteritidis str. ec20121812	bacteria	40	80	4685847
+salmonella enterica subsp. enterica serovar enteritidis str. sa19981857	bacteria	40	79	4685848
+salmonella enterica subsp. enterica serovar enteritidis str. sa20094383	bacteria	40	77	4685848
+salmonella enterica subsp. enterica serovar newport str. cvm 22462	bacteria	40	88	5010125
+salmonella enterica subsp. enterica serovar typhimurium str. dt2	bacteria	40	82	4931109
+shewanella baltica os155	bacteria	35	118	5342896
+shigella flexneri 5 str. 8401	bacteria	38	89	4574284
+thioploca ingrica	bacteria	41	43	4810005
+vibrio tasmaniensis lgp32	bacteria	31	113	
+xanthomonas citri subsp. citri nt17	bacteria	43	53	
+yersinia enterocolitica 2516-87	bacteria	37	77	
+yersinia pestis biovar medievalis str. harbin 35	bacteria	38	71	4709501
+borrelia garinii bgvir	bacteria	29	31	993811
+sphaerochaeta pleomorpha str. grapes	bacteria	44	48	3590853
+thermovirga lienii dsm 17291	bacteria	45	48	1999646
+mycoplasma conjunctivae hrc/581t	bacteria	26	27	
+mycoplasma hominis atcc 27545 lbd-4	bacteria	31	32	
+mycoplasma suis ki3806	bacteria	31	32	709270
+mesotoga prima mesg1.ag.4.2	bacteria	44	45	2975953

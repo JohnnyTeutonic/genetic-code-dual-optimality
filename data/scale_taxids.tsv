@@ -1,0 +1,402 @@
+organism	taxid
+plasmodium falciparum 3d7	36329
+chlorokybus atmophyticus	3144
+aspergillus fumigatus af293	330879
+bipolaris maydis atcc 48331	665024
+botrytis cinerea bcdw1	1290391
+candida albicans wo-1	294748
+cladophialophora carrionii cbs 160.54	1279043
+coccidioides posadasii rmscc 2133	469470
+cryptococcus gattii 2001/935-1	1334442
+cryptococcus gattii ram5	1296110
+drechslerella stenobrocha 248	1043628
+eutypa lata ucrel1	1287681
+fusarium fujikuroi b14	1215603
+fusarium oxysporum f. sp. raphani 54005	1089458
+kluyveromyces marxianus var. marxianus kctc 17555	374272
+lecanosticta acicola cbs 871.95	1367079
+metacordyceps chlamydosporia 123	1052797
+mucor irregularis b50	1290454
+neurospora crassa or74a	367110
+ophiostoma piceae uamh 11346	1262450
+penicillium oxalicum ju-a10-t	933390
+pseudozyma antarctica t-34	1151754
+rhizoctonia solani ag-8 wac10335	1287689
+saccharomyces cerevisiae awri796	764097
+saccharomyces cerevisiae p301	1182968
+saccharomyces cerevisiae y10	462210
+saccharomyces kudriavzevii ifo 1802	226230
+trichophyton rubrum mr1448	1215339
+yarrowia lipolytica wsh-z06	1437815
+drosophila melanogaster	7227
+ailuropoda melanoleuca	9646
+equus caballus	9796
+pongo abelii	9601
+cuscuta campestris	132261
+latimeria chalumnae	7897
+aeropyrum pernix k1	272557
+desulfurococcus mucosus dsm 2162	2275
+metallosphaera cuprina ar-4	1006006
+pyrobaculum calidifontis jcm 11548	410359
+saccharolobus shibatae b12	523848
+sulfolobus acidocaldarius ron12/i	1028567
+sulfolobus solfataricus p2	273057
+thermofilum pendens hrk 5	368408
+thermoproteus uzoniensis 768-20	999630
+archaeoglobus veneficus snp6	693661
+haloarcula hispanica n601	1417673
+halobacterium sp. nrc-1	64091
+halomicrobium mukohataei dsm 12286	485914
+halorhabdus utahensis dsm 12940	519442
+halovivax ruber xh-70	797302
+natronococcus occultus sp4	694430
+methanothermobacter thermautotrophicus str. delta h	187420
+methanocaldococcus sp. fs406-22	644281
+methanococcus voltae a3	456320
+methanocella paludicola sanae	304371
+methanolacinia petrolearia dsm 11571	679926
+methanoregula formicica smsp	593750
+methanosarcina acetivorans c2a	188937
+methanosarcina barkeri str. wiesmoor	1434109
+methanosarcina mazei lyc	1434114
+methanosarcina siciliae c2j	1434118
+methanosarcina sp. wh1	1434102
+methanosphaerula palustris e1-9c	521011
+pyrococcus abyssi ge5	272844
+pyrococcus sp. st04	1183377
+thermococcus kodakarensis kod1	69014
+thermococcus sp. 4557	1042877
+candidatus methanomethylophilus alvus mx1201	1236689
+thermoplasma volcanium gss1	273116
+candidatus nitrosopumilus koreensis ar1	1229908
+candidatus nitrososphaera evergladensis sr1	1459636
+chloracidobacterium thermophilum b	981222
+cellulomonas flavigena dsm 20109	446466
+geodermatophilus obscurus dsm 43160	526225
+rhodococcus erythropolis ccm2595	1136179
+chthonomonas calidirosea t49	1303518
+dokdonia sp. 4h-3-7-5	983548
+chlamydia psittaci rd1	929557
+synechococcus sp. cc9605	110662
+bacillus amyloliquefaciens subsp. plantarum cau b946	1114958
+bacillus megaterium wsh-002	1006007
+enterococcus faecium aus0004	1155766
+staphylococcus aureus subsp. aureus m013	1118959
+streptococcus intermedius jth08	591365
+streptococcus suis a7	993512
+clostridium clariflavum dsm 19732	720554
+ruminococcus champanellensis 18p13 jcm 17042	213810
+anaplasma marginale str. st. maries	234826
+candidatus liberibacter asiaticus str. ishi-1	931202
+novosphingobium pentaromativorans us6-1	1088721
+rickettsia rickettsii str. hauke	1105103
+neisseria meningitidis m7124	1095685
+desulfovibrio gigas dsm 1382 atcc 19364	1121448
+campylobacter jejuni subsp. jejuni nctc 11168-mfk12e5	1385722
+helicobacter pylori oki102	1382920
+allochromatium vinosum dsm 180	572477
+coxiella burnetii dugway 5j108-111	434922
+escherichia coli etec h10407	316401
+francisella sp. fsc1006	653937
+pantoea vagans c9-1	712898
+pseudomonas mendocina nk-01	1001585
+salmonella enterica subsp. enterica serovar dublin str. ct_02021853	439851
+salmonella enterica subsp. enterica serovar enteritidis str. ec20120738	1412610
+salmonella enterica subsp. enterica serovar enteritidis str. sa20093543	1412520
+serratia plymuthica 4rx13	82996
+vibrio cholerae mj-1236	593588
+yersinia pestis a1122	1035377
+treponema caldaria dsm 7334	744872
+mycoplasma hyopneumoniae 7422	754503
+syntrichia caninervis	200751
+leishmania major strain friedlin	347515
+agaricus bisporus var. bisporus h97	936046
+anncaliia algerae pra339	1288291
+aspergillus clavatus nrrl 1	344612
+aspergillus ruber cbs 135680	1388766
+baudoinia compniacensis uamh 10762	717646
+bipolaris sorokiniana nd90pr	665912
+blastomyces dermatitidis slh14081	559298
+blumeria graminis f. sp. tritici jiw2	1306134
+candida albicans 3153a	1182531
+candida albicans a48	1182534
+candida albicans chn1	1182532
+chaetomium globosum cbs 148.51	306901
+cladophialophora bantiana cbs 173.52	1442370
+coccidioides immitis h538.4	396776
+coccidioides posadasii cpa 0001	469472
+coccidioides posadasii rmscc 1038	490066
+colletotrichum graminicola m1.001	645133
+cronartium comandrae c4	1301515
+cryptococcus gattii cbs 10090	1296101
+cryptococcus gattii ind107	1296105
+cylindrobasidium torrendii fp15055 ss-10	1314674
+encephalitozoon cuniculi gb-m1	284813
+endocarpon pusillum z07020	1263415
+epichloe festucae fl1	877507
+fusarium oxysporum f. sp. cubense race 1	1229664
+fusarium oxysporum f. sp. pisi hdv247	1080344
+ganoderma lucidum g.260125-1	1077286
+grosmannia clavigera kw1407	655863
+histoplasma capsulatum h143	544712
+hortaea werneckii exf-2000	1157616
+kwoniella heveanensis bcc8398	1296120
+kwoniella mangroviensis cbs 8886	1296123
+magnaporthiopsis poae atcc 64411	644358
+metarhizium robertsii arsef 23	655844
+myceliophthora thermophila atcc 42464	573729
+naumovozyma dairenensis cbs 421	1071378
+neofusicoccum parvum ucrnp2	1287680
+neurospora pannonica fgsc 7221	1266714
+neurospora tetrasperma fgsc 2509	510952
+omphalotus olearius vt 653.13	1128401
+paracoccidioides brasiliensis pb03	482561
+penicillium camemberti fm 013	1429867
+penicillium digitatum pd1	1170230
+penicillium roqueforti fm164	1365484
+pleurotus ostreatus pc15	1137138
+pseudogymnoascus destructans 20631-21	658429
+pseudozyma flocculosa pf-1	1277687
+pyrenochaeta lycopersici cra-pav_er 1211	1331946
+rhizopus delemar ra 99-880	246409
+saccharomyces arboricola h-6	1160507
+saccharomyces cerevisiae clib215	464025
+saccharomyces cerevisiae fl100	947036
+saccharomyces cerevisiae p283	1177187
+saccharomyces cerevisiae rm11-1a	285006
+saccharomyces cerevisiae ufmg a-905	1434269
+saccharomyces kudriavzevii fm1069	1163632
+saccharomyces kudriavzevii fm1076	1163643
+schizophyllum commune h4-8	578458
+sphaerobolus stellatus ss14	990650
+sporothrix schenckii atcc 58251	1391915
+stereum hirsutum fp-91666 ss1	721885
+taphrina deformans pycc 5710	1097556
+togninia minima ucrpa7	1286976
+trichoderma longibrachiatum smf2	1234776
+trichophyton rubrum cbs 100081	1215328
+trichophyton rubrum cbs 289.86	1215329
+trichophyton soudanense cbs 452.61	1215331
+ustilago maydis 521	5270
+vittaforma corneae atcc 50505	993615
+yarrowia lipolytica po1f	1445506
+ephydatia muelleri	6052
+blattella germanica	6973
+drosophila grimshawi	7222
+drosophila sechellia	7238
+drosophila yakuba	7245
+cavia porcellus	10141
+cricetulus griseus	10029
+erinaceus europaeus	9365
+homo sapiens	9606
+monodelphis domestica	13616
+ochotona princeps	9978
+pan paniscus	9597
+rattus norvegicus	10116
+spermophilus tridecemlineatus	43179
+tursiops truncatus	9739
+caenorhabditis briggsae	6238
+adiantum capillus-veneris	13818
+gossypium raimondii	29730
+oryza sativa japonica group	39947
+vitis vinifera	29760
+ciona intestinalis	7719
+danio rerio	7955
+oreochromis niloticus	8128
+tetraodon nigroviridis	99883
+acidianus hospitalis w1	933801
+aeropyrum camini sy1 jcm 12091	1198449
+caldisphaera lagunensis dsm 15908	1056495
+caldivirga maquilingensis ic-167	397948
+desulfurococcus kamchatkensis 1221n	490899
+fervidicoccus fontis kam940	1163730
+hyperthermus butylicus dsm 5456	415426
+ignisphaera aggregans dsm 17230	583356
+metallosphaera sedula dsm 5348	399549
+pyrobaculum arsenaticum dsm 13514	340102
+pyrobaculum islandicum dsm 4184	384616
+pyrobaculum sp. 1860	1104324
+pyrolobus fumarii 1a	694429
+staphylothermus hellenicus dsm 12710	591019
+sulfolobus acidocaldarius dsm 639	330779
+sulfolobus acidocaldarius n8	1028566
+sulfolobus acidocaldarius susaz	1435377
+thermofilum carboxyditrophus 1505	697581
+thermofilum sp. 1910b	1365176
+thermogladius cellulolyticus 1633	1184251
+thermoproteus tenax kra 1	768679
+thermosphaera aggregans dsm 11486	633148
+vulcanisaeta distributa dsm 14429	572478
+aciduliprofundum boonei t469	439481
+archaeoglobus fulgidus dsm 4304	224325
+archaeoglobus profundus dsm 5631	572546
+archaeoglobus sulfaticallidus pm70-1	387631
+ferroglobus placidus dsm 10642	589924
+halalkalicoccus jeotgali b3	795797
+haloarcula marismortui atcc 43049	272569
+halobacterium sp. dl1	751944
+haloferax mediterranei atcc 33500	523841
+haloferax volcanii ds2	309800
+halopiger xanaduensis sh-6	797210
+halorubrum lacusprofundi atcc 49239	416348
+haloterrigena turkmenica dsm 5511	543526
+natrialba magadii atcc 43099	547559
+natrinema pellirubrum dsm 15624	797303
+natronobacterium gregoryi sp2	797304
+natronomonas moolapensis 8.8.11	268739
+methanobacterium formicicum	2162
+methanobrevibacter ruminantium m1	634498
+methanobrevibacter sp. abm4	224719
+methanothermobacter marburgensis str. marburg	79929
+methanothermobacter sp. cat2	866790
+methanothermus fervidus dsm 2088	523846
+methanocaldococcus infernus me	573063
+methanocaldococcus jannaschii dsm 2661	243232
+methanocaldococcus sp. jh146	1301915
+methanococcus aeolicus nankai-3	419665
+methanococcus maripaludis c5	402880
+methanococcus maripaludis x1	1053692
+methanococcus vannielii sb	406327
+methanothermococcus okinawensis ih1	647113
+methanocella arvoryzae mre50	351160
+methanococcoides burtonii dsm 6242	259564
+methanocorpusculum labreanum z	410358
+methanoculleus marisnigri jr1	368407
+methanogenium sp. mk-mg	2599926
+methanohalophilus mahii dsm 5219	547558
+methanolinea tarda nobi-1	882090
+methanolobus psychrophilus r15	1094980
+methanoregula boonei 6a8	456442
+methanosaeta concilii gp6	990316
+methanosaeta harundinacea 6ac	1110509
+methanosalsum zhilinae dsm 4017	679901
+methanosarcina barkeri 227	1434106
+methanosarcina barkeri ms	1434108
+methanosarcina horonobensis hb-1 jcm 15518	1434110
+methanosarcina mazei c16	1434113
+methanosarcina mazei go1	192952
+methanosarcina mazei s-6	213585
+methanosarcina mazei tuc01	1236903
+methanosarcina mazei wwm610	1434117
+methanosarcina siciliae hi350	1434119
+methanosarcina sp. kolksee	1434099
+methanosarcina sp. mtp4	1434100
+methanosarcina sp. wwm596	1434103
+methanosarcina thermophila tm-1	523844
+methanospirillum hungatei jf-1	323259
+palaeococcus pacificus dy20341	1343739
+pyrococcus furiosus com1	1185654
+pyrococcus furiosus dsm 3638	186497
+pyrococcus sp. na2	342949
+pyrococcus yayanosii ch1	529709
+thermococcus barophilus mp	391623
+thermococcus litoralis dsm 5473	523849
+thermococcus sibiricus mm 739	604354
+thermococcus sp. am4	246969
+thermococcus sp. es1	582419
+candidatus methanomassiliicoccus intestinalis issoire-mx1	1295009
+picrophilus torridus dsm 9790	1122961
+thermoplasma acidophilum dsm 1728	273075
+thermoplasmatales archaeon brna1	1054217
+nanoarchaeum equitans kin4-m	228908
+cenarchaeum symbiosum a	414004
+candidatus nitrosopumilus sp. ar2	1229909
+nitrosopumilus maritimus scm1	436308
+candidatus nitrososphaera gargensis ga9.2	1237085
+arthrobacter sp. fb24	290399
+bifidobacterium breve acs-071-v-sch8b	866777
+clavibacter michiganensis subsp. nebraskensis ncppb 2581	1097677
+corynebacterium glutamicum scgg2	1232383
+corynebacterium sp. atcc 6931	1487956
+kineococcus radiotolerans srs30216 atcc baa-149	266940
+mycobacterium leprae br4923	561304
+mycobacterium tuberculosis k	1249615
+propionibacterium acnes atcc 11828	1091045
+salinispora tropica cnb-440	369723
+thermobifida fusca yx	269800
+streptomyces scabiei 87.22	680198
+bacteroides vulgatus atcc 8482	435590
+emticicia oligotrophica dsm 17448	929562
+candidatus uzinura diaspidicola str. asner	1133592
+haliscomenobacter hydrossis dsm 1100	760192
+chlamydia psittaci c19/98	1112250
+chlamydia trachomatis d/uw-3/cx	272561
+chlamydia trachomatis j/6276tet1	907272
+chlamydia trachomatis rc-j/943	907266
+roseiflexus castenholzii dsm 13941	383372
+nostoc sp. pcc 7524	28072
+prochlorococcus marinus str. mit 9312	74546
+thermus thermophilus hb8	300852
+bacillus anthracis str. a2012	191218
+bacillus thuringiensis serovar kurstaki str. ybt-1520	570416
+exiguobacterium sp. at1b	360911
+lactobacillus paracasei subsp. paracasei jcm 8130	525337
+lactococcus lactis subsp. cremoris mg1363	416870
+listeria monocytogenes slcc2378	879088
+paenibacillus mucilaginosus knp414	1036673
+staphylococcus aureus subsp. aureus ed133	685039
+staphylococcus aureus subsp. aureus vc40	1028799
+streptococcus infantarius subsp. infantarius cj18	1069533
+streptococcus pneumoniae g54	512566
+streptococcus pyogenes hsc5	1336746
+streptococcus suis 05zyh33	391295
+thermobacillus composti kwc4	717605
+clostridium acetobutylicum ea 2018	863638
+desulfitobacterium hafniense dcb-2	272564
+mageeibacillus indolicus upii9-5	699246
+ruminococcus torques l2-14	657313
+acidaminococcus intestini ryc-mr95	568816
+planctomyces limnophilus dsm 3776	521674
+candidatus rickettsia amblyommii str. gat-30v	1105111
+granulibacter bethesdensis cgdnih3	1052004
+methylobacterium oryzae cbmb20	693986
+parvibaculum lavamentivorans ds-1	402881
+rhodomicrobium vannielii atcc 17100	648757
+rickettsia prowazekii str. breinl	1290428
+ruegeria pomeroyi dss-3	246200
+wolbachia endosymbiont of drosophila simulans wno	1236908
+bordetella bronchiseptica 253	568707
+burkholderia pseudomallei 7894	441156
+burkholderia pseudomallei nau20b-16	1249476
+burkholderia ubonensis msmb22	1249668
+neisseria meningitidis m01-240355	935588
+polynucleobacter necessarius subsp. asymbioticus qlw-p1dmwa-1	312153
+pelobacter carbinolicus dsm 2380	338963
+campylobacter jejuni 32488	1338035
+campylobacter jejuni subsp. jejuni s3	718271
+helicobacter pylori 35a	585535
+helicobacter pylori ok310	1248726
+helicobacter pylori oki898	1382927
+acinetobacter baumannii acicu	405416
+aeromonas hydrophila al09-71	1321367
+buchnera aphidicola str. tlw03 acyrthosiphon pisum	713602
+candidatus riesia pediculicola usda	515618
+dickeya dadantii 3937	198628
+enterobacter cloacae subsp. dissolvens sdm	1104326
+escherichia coli o7_k1 str. ce10	1072459
+haemophilus influenzae rd kw20	71421
+klebsiella pneumoniae jm45	1380908
+legionella fallonii llap-10	1212491
+mannheimia varigena usda-ars-usmarc-1388	1434215
+pantoea sp. at-9b	592316
+pseudoalteromonas sp. ocn003	1348114
+pseudomonas aeruginosa pao1h2o	1147787
+pseudomonas sp. 20_bn	1499686
+rahnella aquatilis hx2	1151116
+salmonella enterica subsp. enterica serovar enteritidis str. ec20110221	1412455
+salmonella enterica subsp. enterica serovar enteritidis str. ec20120219	1412548
+salmonella enterica subsp. enterica serovar enteritidis str. ec20120917	1412613
+salmonella enterica subsp. enterica serovar enteritidis str. ec20121812	1412571
+salmonella enterica subsp. enterica serovar enteritidis str. sa19981857	1412486
+salmonella enterica subsp. enterica serovar enteritidis str. sa20094383	1412516
+salmonella enterica subsp. enterica serovar newport str. cvm 22462	858305
+salmonella enterica subsp. enterica serovar typhimurium str. dt2	568709
+shewanella baltica os155	325240
+shigella flexneri 5 str. 8401	373384
+thioploca ingrica	40754
+yersinia pestis biovar medievalis str. harbin 35	547048
+borrelia garinii bgvir	1081646
+sphaerochaeta pleomorpha str. grapes	158190
+thermovirga lienii dsm 17291	580340
+mycoplasma suis ki3806	708248
+mesotoga prima mesg1.ag.4.2	660470
