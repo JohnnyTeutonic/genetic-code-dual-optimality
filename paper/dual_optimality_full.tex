@@ -7,7 +7,7 @@
 \usepackage{geometry}
 \usepackage{microtype}
 \usepackage[hidelinks]{hyperref}
-\geometry{a4paper,margin=1in}
+\geometry{letterpaper,margin=1in}
 
 \newtheorem{theorem}{Theorem}
 \newtheorem{lemma}{Lemma}
@@ -28,32 +28,20 @@ tRNA decoding coincide in the genetic code}
 \maketitle
 
 \begin{abstract}
-The structure of the standard genetic code has been read as optimal in two
-separate literatures: it is highly error-resistant (synonymous codons cluster
-under single mutations), and it is decoded by a remarkably small set of tRNAs.
-We prove these are the same optimum. The wobble-fibre constancy that uniquely
+The standard genetic code is ``optimal'' in two separate literatures: it is
+highly error-resistant, and it is decoded by a remarkably small set of tRNAs. We
+prove these are the same optimum: the wobble-fibre constancy that uniquely
 maximises the third-position silent-edge count---the dominant component of
 single-substitution error-resistance---also uniquely minimises the number of
-tRNAs needed to decode the code under four-way (superwobble) reading: the
-minimiser of the decoding number is exactly the maximiser of silent edges. This
-coincidence is specific to \emph{superwobble}---the documented four-way decoding
-in which a single unmodified tRNA reads an entire four-codon family, the
-mechanism by which organelles and reduced genomes translate with minimal tRNA
-sets \cite{rogalski}. Far from a technical caveat, this specificity is the
-theory's empirical engine: it predicts that the joint optimum is approached as
-genomes reduce toward superwobble decoding and departed from as tRNA repertoires
-expand. We give exact statements and proofs, validate the decoding model (it
-reproduces the classical 31-tRNA Crick minimum and the 22-tRNA mitochondrial
-set), and confirm the prediction across 390 genomes spanning the three domains:
-decoding redundancy above the minimum scales with genome size (pooled
-$p\approx2\times10^{-18}$; significant within all three domains; and
-$p\approx6\times10^{-10}$ under phylogenetic generalised least squares), with the
-most reduced genomes nearest the minimum. The result bears on a long-standing
-dispute---whether the code's error-resistance reflects direct selection for
-robustness \cite{freeland} or is a non-adaptive by-product \cite{massey,koonin}:
-if one structural property delivers error-resistance and decoding economy
-together, neither trait need be the other's selective cause, and the
-adaptive/neutral dichotomy is, for this component of robustness, ill-posed.
+tRNAs needed to decode the code under superwobble. The minimiser of the decoding
+number is exactly the maximiser of silent edges. Because this coupling is
+specific to superwobble (the four-way decoding by which organelles and reduced
+genomes use minimal tRNA sets), it predicts that decoding redundancy above the
+minimum grows with genome size---confirmed across 390 genomes
+($p\approx6\times10^{-10}$, phylogenetically controlled). If one structural
+property yields both error-resistance and decoding economy, neither need be the
+other's selective cause, and the adaptive-versus-neutral debate is, for this
+component, ill-posed.
 \end{abstract}
 
 \paragraph{Significance.} Why the genetic code is so resistant to mutation is a
@@ -336,6 +324,11 @@ Spearman correlation is reported alongside. All code and data fetchers
 are scripted (Python; \texttt{numpy}/\texttt{statsmodels}); the engine
 reproduces $\Sthree=64$, $S=69$ and the $31$/$22$-tRNA minima as regression
 tests.
+
+\section*{Acknowledgements}
+
+The author used Claude Opus 4.6 (Anthropic) for manuscript preparation and
+literature review.
 
 \begin{thebibliography}{99}
 
